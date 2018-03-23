@@ -1,0 +1,30 @@
+{
+  "name": "cerebro-kitty",
+  "version": "0.1.0",
+  "description": "Kitty SSH plugin from cerebro",
+  "license": "MIT",
+  "repository": "kosz78/cerebro-kitty",
+  "author": {
+    "name": "Konstantin Zaitcev",
+    "email": "konstantin.zaitsev@xored.com"
+  },
+  "dependencies": {
+    "cerebro-tools": "^0.1.8",
+    "cerebro-ui": "^0.0.16"
+  },
+  "devDependencies": {
+    "cerebro-scripts": "0.0.25"
+  },
+  "main": "dist/index.js",
+  "keywords": [
+    "cerebro",
+    "cerebro-plugin"
+  ],
+  "scripts": {
+    "start": "cerebro-scripts start",
+    "build": "cerebro-scripts build",
+    "test": "cerebro-scripts test",
+    "clear": "cerebro-scripts clear",
+    "prepublish": "yarn clear && yarn build"
+  }
+}
