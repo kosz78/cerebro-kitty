@@ -4,6 +4,10 @@
 
 ![](screenshot.gif)
 
+##Plugin settings
+
+You need to define the directory where kitty.exe located (for example `C:\Program Files\Kitty\`), in the plugin settings section on Cerebro.
+
 ## Usage
 
 In Cerebro, type `kitty something`, to find kitty sessions.
